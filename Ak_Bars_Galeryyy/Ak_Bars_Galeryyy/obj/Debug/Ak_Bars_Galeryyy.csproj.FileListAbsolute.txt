@@ -1,0 +1,162 @@
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe.config
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.pdb
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.AssemblyReference.cache
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.SuggestedBindingRedirects.cache
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_Content.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.cache
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.lref
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.g.resources
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.Properties.Resources.resources
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.GenerateResource.cache
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CoreCompileInputs.cache
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CopyComplete
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.pdb
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Dynamitey.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\System.Drawing.Common.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.pdb
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.baml
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\App.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.g.cs
+C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe.config
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.pdb
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Dynamitey.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\System.Drawing.Common.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.pdb
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.AssemblyReference.cache
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.SuggestedBindingRedirects.cache
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\App.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_Content.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.cache
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.lref
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.g.resources
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.Properties.Resources.resources
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.GenerateResource.cache
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CoreCompileInputs.cache
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CopyComplete
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\OneDrive\Рабочий стол\курс\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.pdb
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe.config
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Ak_Bars_Galeryyy.pdb
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Dynamitey.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\System.Drawing.Common.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFConverters.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ExtendedWPFVisualTreeHelper.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignColors.pdb
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\MaterialDesignThemes.Wpf.AddOns.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.AssemblyReference.cache
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.SuggestedBindingRedirects.cache
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\App.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_Content.g.cs
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.cache
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy_MarkupCompile.lref
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\AboutGalleryWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtistWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\ArtWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BasicWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\BuyNCWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\MainWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\NewCollectionWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Windows\RegestrationWindow.baml
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.g.resources
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.Properties.Resources.resources
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.GenerateResource.cache
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CoreCompileInputs.cache
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.csproj.CopyComplete
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.exe
+C:\Users\god19\OneDrive\Рабочий стол\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\obj\Debug\Ak_Bars_Galeryyy.pdb

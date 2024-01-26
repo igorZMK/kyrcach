@@ -1,0 +1,77 @@
+﻿<Window x:Class="Ak_Bars_Galeryyy.Windows.ArtistWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ak_Bars_Galeryyy.Windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="ArtistWindow" Height="450" Width="800">
+    <Grid Background="DarkGreen">
+        <Grid.RowDefinitions >
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" Background="DarkGreen" Grid.Row="2" Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="0,0,15,0"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0 0 0 1" />
+                    <Setter Property="BorderBrush" Value="white"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </StackPanel.Resources>
+            <Button Content="А" Click="searchButton_Click"></Button>
+            <Button Content="Б" Click="searchButton_Click"></Button>
+            <Button Content="В" Click="searchButton_Click"></Button>
+            <Button Content="Г" Click="searchButton_Click"></Button>
+            <Button Content="Д" Click="searchButton_Click"></Button>
+            <Button Content="Е" Click="searchButton_Click"></Button>
+            <Button Content="Ё" Click="searchButton_Click"></Button>
+            <Button Content="Ж" Click="searchButton_Click"></Button>
+            <Button Content="З" Click="searchButton_Click"></Button>
+            <Button Content="И" Click="searchButton_Click"></Button>
+            <Button Content="К" Click="searchButton_Click"></Button>
+            <Button Content="Л" Click="searchButton_Click"></Button>
+            <Button Content="М" Click="searchButton_Click"></Button>
+            <Button Content="Н" Click="searchButton_Click"></Button>
+            <Button Content="О" Click="searchButton_Click"></Button>
+            <Button Content="П" Click="searchButton_Click" ></Button>
+            <Button Content="Р" Click="searchButton_Click"></Button>
+            <Button Content="С" Click="searchButton_Click"></Button>
+            <Button Content="Т" Click="searchButton_Click"></Button>
+            <Button Content="У" Click="searchButton_Click"></Button>
+            <Button Content="Ф" Click="searchButton_Click"></Button>
+            <Button Content="Х" Click="searchButton_Click"></Button>
+            <Button Content="Ц" Click="searchButton_Click"></Button>
+            <Button Content="Ч" Click="searchButton_Click"></Button>
+            <Button Content="Ш" Click="searchButton_Click"></Button>
+            <Button Content="Щ" Click="searchButton_Click"></Button>
+            <Button Content="Ы" Click="searchButton_Click"></Button>
+            <Button Content="Э" Click="searchButton_Click"></Button>
+            <Button Content="Ю" Click="searchButton_Click"></Button>
+            <Button Content="Я" Click="searchButton_Click"></Button>
+        </StackPanel>
+        <ListView Grid.Row="3" x:Name="artistListView" HorizontalAlignment="Left" Height="200" Margin="25,50,0,0" VerticalAlignment="Top" Width="400">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ФИО" DisplayMemberBinding="{Binding FIO}" Width="auto"/>
+                    <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Border  BorderBrush="white" BorderThickness="1" HorizontalAlignment="Left" Height="74" Margin="530,8,0,0" VerticalAlignment="Top" Width="2"/>
+        <Image Source="\Resources\akbars.png" HorizontalAlignment="Left" Height="66" Margin="10,12,0,0" VerticalAlignment="Top" Width="348"/>
+        <Button x:Name="btnGlavn" Click="btnGlavn_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="#00FF00" Content="Главная" HorizontalAlignment="Left" Margin="428,34,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnaboutgalary" Click="btnaboutgalary_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="white" Content="О галереи" HorizontalAlignment="Left" Margin="544,12,0,0" Width="84" VerticalAlignment="Top"/>
+        <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" x:Name="collectionbutton" Click="collectionbutton_Click" FontWeight="Bold" Foreground="white" Content="Коллекция" HorizontalAlignment="Left" Margin="546,36,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnartist"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="#00FF00" Content="Художники" HorizontalAlignment="Left" Margin="546,60,0,0" Width="85" VerticalAlignment="Top"/>
+        <Border BorderBrush="white" BorderThickness="1" HorizontalAlignment="Left" Height="74" Margin="636,8,0,0" VerticalAlignment="Top" Width="2"/>
+        <Button x:Name="jivopis" Click="jivopis_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="White" Content="Живопись" HorizontalAlignment="Left" Margin="661,23,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnnovayacolectia" Click="btnnovayacolectia_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="White" Content="Новая коллекция" HorizontalAlignment="Left" Margin="643,49,0,0" Width="126" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

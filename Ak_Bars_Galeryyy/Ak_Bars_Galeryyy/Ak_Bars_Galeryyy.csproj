@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD9B8648-E45C-42B9-930B-9CCD6B1EEA5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ak_Bars_Galeryyy</RootNamespace>
+    <AssemblyName>Ak_Bars_Galeryyy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dynamitey, Version=2.0.10.189, Culture=neutral, PublicKeyToken=cbf53ea3aeb972c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dynamitey.2.0.10.189\lib\net40\Dynamitey.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtendedWPFConverters, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExtendedWPFConverters.2.0.3\lib\net471\ExtendedWPFConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtendedWPFVisualTreeHelper, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExtendedWPFVisualTreeHelper.2.0.2\lib\net451\ExtendedWPFVisualTreeHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=2.1.4.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.1.4\lib\net462\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.9.0\lib\net462\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf.AddOns, Version=0.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignInXamlToolkitAddOns.0.0.6\lib\net471\MaterialDesignThemes.Wpf.AddOns.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.7.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Windows\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Models\Ak_Bars_Galleryyy.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ak_Bars_Galleryyy.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Ak_Bars_Galleryyy.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Ak_Bars_Galleryyy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ak_Bars_Galleryyy.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Ak_Bars_GalleryyyEntites.cs" />
+    <Compile Include="Models\Artist.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Buy.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Exibit.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Gender.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Lvl.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Newcollection.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Partials\Exibit.cs" />
+    <Compile Include="Models\Partials\Newcollection.cs" />
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserExibit.cs">
+      <DependentUpon>Ak_Bars_Galleryyy.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AboutGalleryWindow.xaml.cs">
+      <DependentUpon>AboutGalleryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ArtistWindow.xaml.cs">
+      <DependentUpon>ArtistWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ArtWindow.xaml.cs">
+      <DependentUpon>ArtWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuyNCWindow.xaml.cs">
+      <DependentUpon>BuyNCWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\NewCollectionWindow.xaml.cs">
+      <DependentUpon>NewCollectionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\RegestrationWindow.xaml.cs">
+      <DependentUpon>RegestrationWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Windows\AboutGalleryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ArtistWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ArtWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\BasicWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\BuyNCWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Windows\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\BasicWindow.xaml.cs">
+      <DependentUpon>BasicWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Windows\NewCollectionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\RegestrationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="Models\Ak_Bars_Galleryyy.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Ak_Bars_Galleryyy.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\Ak_Bars_Galleryyy.edmx.diagram">
+      <DependentUpon>Ak_Bars_Galleryyy.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\art3.jpg" />
+    <Resource Include="Resources\art2.jpg" />
+    <Resource Include="Resources\art1.jpg" />
+    <Resource Include="Resources\akbars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Newcollection1.jpg" />
+    <Resource Include="Resources\Newcollection2.jpg" />
+    <Resource Include="Resources\Newcollection3.jpg" />
+    <Resource Include="Resources\Newcollection4.jpg" />
+    <None Include="Resources\exibition4.jpg" />
+    <None Include="Resources\exibition3.jpg" />
+    <None Include="Resources\exibition2.jpg" />
+    <None Include="Resources\exibition1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Place.jpeg" />
+    <Resource Include="Resources\gallery2.jpg" />
+    <Resource Include="Resources\gallery1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Newcollection9.jpg" />
+    <Resource Include="Resources\Newcollection5.jpg" />
+    <Resource Include="Resources\Newcollection6.jpg" />
+    <Resource Include="Resources\Newcollection7.jpg" />
+    <Resource Include="Resources\Newcollection8.jpg" />
+    <Resource Include="Resources\exibition6.jpg" />
+    <Resource Include="Resources\exibition7.jpg" />
+    <Resource Include="Resources\exibition8.jpg" />
+    <Resource Include="Resources\exibition9.jpg" />
+    <Resource Include="Resources\exibition5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\Ak_Bars_Galleryyy.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Ak_Bars_Galleryyy.edmx</DependentUpon>
+      <LastGenOutput>Ak_Bars_Galleryyy.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Ak_Bars_Galleryyy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Ak_Bars_Galleryyy.edmx</DependentUpon>
+      <LastGenOutput>Ak_Bars_Galleryyy.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

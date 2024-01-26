@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Ak_Bars_GalleryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="Artist_Id" />
+    </Key>
+    <Property Name="Artist_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Exibits" Relationship="Self.FK_Exibit_Artist" FromRole="Artist" ToRole="Exibit" />
+    <NavigationProperty Name="Newcollections" Relationship="Self.FK_Newcollection_Artist" FromRole="Artist" ToRole="Newcollection" />
+  </EntityType>
+  <EntityType Name="Exibit">
+    <Key>
+      <PropertyRef Name="Exibit_Id" />
+    </Key>
+    <Property Name="Exibit_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Photo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Artist" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Artist1" Relationship="Self.FK_Exibit_Artist" FromRole="Exibit" ToRole="Artist" />
+    <NavigationProperty Name="UserExibits" Relationship="Self.FK_UserExibit_Exibit" FromRole="Exibit" ToRole="UserExibit" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="Gender_Id" />
+    </Key>
+    <Property Name="Gender_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Gendere_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Gender" FromRole="Gender" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Lvl">
+    <Key>
+      <PropertyRef Name="Lvl_Id" />
+    </Key>
+    <Property Name="Lvl_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Lvl_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Lvl" FromRole="Lvl" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Newcollection">
+    <Key>
+      <PropertyRef Name="NewCollection_Id" />
+    </Key>
+    <Property Name="NewCollection_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Photo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Artist_Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Artist" Relationship="Self.FK_Newcollection_Artist" FromRole="Newcollection" ToRole="Artist" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserExibit">
+    <Key>
+      <PropertyRef Name="UserExibit_Id" />
+    </Key>
+    <Property Name="UserExibit_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Id" Type="Int32" Nullable="false" />
+    <Property Name="Exibit_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Exibit" Relationship="Self.FK_UserExibit_Exibit" FromRole="UserExibit" ToRole="Exibit" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserExibit_Users" FromRole="UserExibit" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="User_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Gender" Type="Int32" Nullable="false" />
+    <Property Name="Lvl" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Gender1" Relationship="Self.FK_Users_Gender" FromRole="Users" ToRole="Gender" />
+    <NavigationProperty Name="Lvl1" Relationship="Self.FK_Users_Lvl" FromRole="Users" ToRole="Lvl" />
+    <NavigationProperty Name="UserExibits" Relationship="Self.FK_UserExibit_Users" FromRole="Users" ToRole="UserExibit" />
+  </EntityType>
+  <Association Name="FK_Exibit_Artist">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Exibit" Type="Self.Exibit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="Artist_Id" />
+      </Principal>
+      <Dependent Role="Exibit">
+        <PropertyRef Name="Artist" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Newcollection_Artist">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Newcollection" Type="Self.Newcollection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="Artist_Id" />
+      </Principal>
+      <Dependent Role="Newcollection">
+        <PropertyRef Name="Artist_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserExibit_Exibit">
+    <End Role="Exibit" Type="Self.Exibit" Multiplicity="1" />
+    <End Role="UserExibit" Type="Self.UserExibit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exibit">
+        <PropertyRef Name="Exibit_Id" />
+      </Principal>
+      <Dependent Role="UserExibit">
+        <PropertyRef Name="Exibit_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="Gender_Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Gender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Lvl">
+    <End Role="Lvl" Type="Self.Lvl" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lvl">
+        <PropertyRef Name="Lvl_Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Lvl" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserExibit_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="UserExibit" Type="Self.UserExibit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="UserExibit">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Ak_Bars_GalleryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Artists" EntityType="Self.Artist" />
+    <EntitySet Name="Exibits" EntityType="Self.Exibit" />
+    <EntitySet Name="Genders" EntityType="Self.Gender" />
+    <EntitySet Name="Lvls" EntityType="Self.Lvl" />
+    <EntitySet Name="Newcollections" EntityType="Self.Newcollection" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="UserExibits" EntityType="Self.UserExibit" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Exibit_Artist" Association="Self.FK_Exibit_Artist">
+      <End Role="Artist" EntitySet="Artists" />
+      <End Role="Exibit" EntitySet="Exibits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Newcollection_Artist" Association="Self.FK_Newcollection_Artist">
+      <End Role="Artist" EntitySet="Artists" />
+      <End Role="Newcollection" EntitySet="Newcollections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserExibit_Exibit" Association="Self.FK_UserExibit_Exibit">
+      <End Role="Exibit" EntitySet="Exibits" />
+      <End Role="UserExibit" EntitySet="UserExibits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Gender" Association="Self.FK_Users_Gender">
+      <End Role="Gender" EntitySet="Genders" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Lvl" Association="Self.FK_Users_Lvl">
+      <End Role="Lvl" EntitySet="Lvls" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserExibit_Users" Association="Self.FK_UserExibit_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserExibit" EntitySet="UserExibits" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

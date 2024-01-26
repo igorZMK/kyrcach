@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="36538adcc94f406d80f9d8d1ba86e22a" Name="Diagram1">
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Artist" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Buy" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Exibit" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Gender" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Lvl" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.Newcollection" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.sysdiagram" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.UserExibit" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ak_Bars_GalleryyyModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_Exibit_Artist" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_Newcollection_Artist" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_Buy_Newcollection" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_UserExibit_Exibit" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_Users_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_Users_Lvl" ManuallyRouted="false" />
+        <AssociationConnector Association="Ak_Bars_GalleryyyModel.FK_UserExibit_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

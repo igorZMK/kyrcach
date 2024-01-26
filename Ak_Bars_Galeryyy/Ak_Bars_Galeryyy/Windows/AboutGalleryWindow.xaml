@@ -1,0 +1,34 @@
+﻿<Window x:Class="Ak_Bars_Galeryyy.Windows.AboutGalleryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ak_Bars_Galeryyy.Windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="AboutGalleryWindow" Height="450" Width="800">
+    <Grid Background="DarkGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Margin="0,17,0,0" Grid.Row="1" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" Width="400" TextWrapping="Wrap">Как все начиналось? Поначалу в «АК БАРС» БАНКе воплощался принцип «Искусство на рабочем месте», когда произведения живописи и графики украшали холлы банка, позволяя сотрудникам и посетителям соприкасаться с искусством вне музеев и вернисажей. Со временем коллекция выросла, появились образцы, требующие музейного содержания.
+
+В декабре 2005 года было зарегистрировано дочернее предприятие ОАО «АК БАРС» БАНК — ООО «Ак Барс Галерея». С тех пор у галереи появилось прекрасное помещение в центре исторической части Казани по адресу ул. Баумана, 44/10-8.
+
+Сейчас в коллекции более 300 великолепных предметов искусства. Представлены русская живопись конца XIX-начала XX века, советского и современного периода, а также предметы декоративно-прикладного искусства (часы,эмали,скульптуры из бронзы, фарфора, стекла). Имеющиеся работы разнообразны по технике, месту и времени создания, но их объединяет высокой уровень художественной ценности и мастерство исполнения.
+
+        </TextBlock>
+        <Image Source="\Resources\gallery1.jpg" Grid.Row="1" Height="261" VerticalAlignment="Top" Margin="-4,22,602,0"/>
+        <Image Source="\Resources\gallery2.jpg" Grid.Row="1" Height="261" VerticalAlignment="Top" Margin="188,22,410,0"/>
+        <Border  BorderBrush="white" BorderThickness="1" HorizontalAlignment="Left" Height="74" Margin="530,8,0,0" VerticalAlignment="Top" Width="2"/>
+        <Image Source="C:\Users\god19\source\repos\Ak_Bars_Galeryyy\Ak_Bars_Galeryyy\Resources\akbars.png" HorizontalAlignment="Left" Height="66" Margin="10,12,0,0" VerticalAlignment="Top" Width="348"/>
+        <Button x:Name="btnGlavn" Click="btnGlavn_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="#00FF00" Content="Главная" HorizontalAlignment="Left" Margin="428,34,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnaboutgalary" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="#00FF00" Content="О галереи" HorizontalAlignment="Left" Margin="544,12,0,0" Width="84" VerticalAlignment="Top"/>
+        <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="white" Content="Коллекция" HorizontalAlignment="Left" Margin="546,36,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnartist"  Click="btnartist_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="white" Content="Художники" HorizontalAlignment="Left" Margin="546,60,0,0" Width="85" VerticalAlignment="Top"/>
+        <Border BorderBrush="white" BorderThickness="1" HorizontalAlignment="Left" Height="74" Margin="636,8,0,0" VerticalAlignment="Top" Width="2"/>
+        <Button x:Name="jivopis" Click="jivopis_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="white" Content="Живопись" HorizontalAlignment="Left" Margin="661,23,0,0" Width="85" VerticalAlignment="Top"/>
+        <Button x:Name="btnnovayacolectia" Click="btnnovayacolectia_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontWeight="Bold" Foreground="White" Content="Новая коллекция" HorizontalAlignment="Left" Margin="643,49,0,0" Width="126" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
